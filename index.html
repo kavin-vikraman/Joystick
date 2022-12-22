@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joystick</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="init();">
+    <div class="control">
+        <div>
+            <p>
+                <span id="er">....</span>
+                X: <span id="x_coordinate"> </span>
+                <span id="er">..................................</span>
+                Y: <span id="y_coordinate"> </span>
+            </p>
+            <canvas id="canvas" name="game"></canvas>
+        </div>
+        <div class="below">
+            <p id="er">
+                .<span> </span>
+            </p>
+            <button id="goFS">Fullscreen</button>
+            <button id="start" onclick="start()">Start</button>
+            <p id="temp"></p>
+            <button id="toggle" onclick="toggle()">Toggle</button>
+            <button id="mode">Mode</button>
+        </div>
+        <div>
+            <p>
+                <span id="er">....</span>
+                X: <span id="x_coordinate1"> </span>
+                <span id="er">..................................</span>
+                Y: <span id="y_coordinate1"> </span>
+            </p>
+            <canvas id="canvas1" name="game1"></canvas>
+        </div>
+        <div class="trim">
+            <p id="er">
+                .<span> </span>
+            </p>
+            <button id="rightY" onclick="rightyi()">(+)</button>
+            <button id="rightY-" onclick="rightyd()">(-)</button>
+        </div>
+    </div>
+    <div>
+        <button id="leftX-" onclick="leftxd()"><<</button>
+        <button id="leftX" onclick="leftxi()">>></button>
+        <button id="rightX-" onclick="rightxd()"><<</button>
+        <button id="rightX" onclick="rightxi()">>></button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html><br>

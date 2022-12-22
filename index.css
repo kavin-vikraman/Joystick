@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    margin: 0%;
+    border: 4px red solid;
+ }
+ .below{
+    width: 20%;
+ }
+ .control{
+     display: flex;
+ }
+ #er{
+    color: blue;
+ }
+ #temp{
+    height: 50%;
+    
+ }
+ p{
+    padding: 2px;
+    border: 2px red solid;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    margin: 2px;
+ }
+ canvas{
+    margin: 2px;
+     border: 2px dotted red;
+ }
+ .trim{
+     display: block;
+ }
+ #goFS{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: 2px red solid;
+    color: red;
+    background-color: black;
+ }
+ #start{
+    width: 100%;
+    border-radius: 20px;
+    border: 2px red solid;
+    color: red;
+    background-color: black;
+ }
+ #toggle{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: 2px red solid;
+    color: red;
+    background-color: black;
+ }
+ #mode{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: 2px red solid;
+    color: red;
+    background-color: black;
+ }
+ #rightY{
+     background-color: black;
+     color: red;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+     border-radius: 20px;
+     border: 2px red solid;
+     margin: auto;
+     height: 135px;
+     width: 5.3vw;
+ }
+ #rightY-{
+     background-color: black;
+     color: red;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+     border: 2px red solid;
+     border-radius: 20px;
+     margin: auto;
+     height: 135px;
+     width: 5.3vw;
+ }
+ #leftX-{
+     background-color: black;
+     color: red;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+     border: 2px red solid;
+     border-radius: 20px;
+     margin: auto;
+     width: 23.2vw;
+ }
+ #leftX{
+     background-color: black;
+     color: red;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+     border: 2px red solid;
+     border-radius: 20px;
+     margin: auto;
+     width: 23.2vw;
+ }
+ #rightX-{
+     background-color: black;
+     color: red;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+     border: 2px red solid;
+     border-radius: 20px;
+     margin: auto;
+     width: 23.2vw;
+ }
+ #rightX{
+     background-color: black;
+     color: red;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+     border: 2px red solid;
+     border-radius: 20px;
+     margin: auto;
+     width: 23.2vw;
+ }
